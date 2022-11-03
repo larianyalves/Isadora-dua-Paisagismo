@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2? family= Cherry+Swash & display=swap');
+/*
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #558F62;
+}
+#logo{
+    height: 38px;
+    justify-content: flex-start;
+ 
+   
+}
+.menu nav{
+    background-color: #D3F3A9;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 24px;
+
+}
+nav,a{
+   
+    font-size: 24px;
+    text-decoration: none;
+    color: #53885F;
+}
+
+#conteudo{
+    margin:19px;
+    padding: 100px;
+}
+#foto,img{
+    height: 340px;
+    border-radius: 130px 202px ;
+    padding: 150px;
+    text-align:right;
+    
+}
+#foto{
+    margin: 120px 40px ;
+    padding: 150px;
+}
+    
+footer{
+    text-align: center;
+    font-size: 24px;
+	border-top: 1px solid #000000;
+    width: 920px;
+
+    padding: 18px;
+    color: #D3F3A9;
+}
+
+página quem sou eu
+h1{
+    text-align: center;
+    padding: 38px ;
+    margin: 8px;
+}
+.anos{
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 24px;
+    width: 50%;
+    margin: 28px;
+    
+    padding-left: 500px 50px;
+   border-bottom: 1px solid #000000;
+}
+.lista{
+    margin: 38px;
+    
+}
+.lista, li{
+    text-align: justify;
+    padding: 8px 18px;
+    list-style: none;
+    font-size: 18px;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2? family= Cherry+Swash & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #558F62;
+    
+}
+
+.menu{
+    background-color: #D3F3A9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+    padding: 24px;
+
+
+}
+
+.menu .logo{
+    height: 60px;
+}
+
+.menu-nav, a{
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 18px;
+    color:#558F62;
+}
+
+#conteudo, #descricao, #foto-isadora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#conteudo #descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1{
+    color: #D3F3A9;
+}
+#foto-isadora{
+    height: 380px;
+    border-radius: 790px 580px 650px 500px ;
+    padding: 25px 25px 10px 15px; 
+}
+
+#linha{
+    padding: 50px;
+}
+footer{
+    border-top: 0.5px solid black;
+    padding: 30px;
+    text-align: center;   
+    color:#D3F3A9;
+    font-size: 20px;
+}
+
+.anos{
+    text-align: center;
+    padding-bottom:10px;
+    font-size: 20px;
+ 
+}
+
+#texto{
+    text-align: justify;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    
+}
+
+.lista{
+    border-top: 0.5px solid black;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
