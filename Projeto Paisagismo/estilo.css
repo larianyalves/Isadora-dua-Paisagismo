@@ -91,11 +91,12 @@ h1{
     padding: 0;
     text-decoration: none;
     list-style: none;
+
 }
 
 body{
     background-color: #558F62;
-    
+   
 }
 
 .menu{
@@ -174,4 +175,13 @@ footer{
     border-top: 0.5px solid black;
     padding-bottom: 30px;
     padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 50px 25px;
+}
+
+li{
+    padding: 8px;
 }
